@@ -1,5 +1,6 @@
 import Cart from "/images/icon-cart.svg"
-
+import ProductMob from "/images/image-product-mobile.jpg"
+import ProductDesk from "/images/image-product-desktop.jpg"
 
 
 import './card.css'
@@ -8,7 +9,12 @@ import './card.css'
 export default function Card(){
     return(
             <div className="container">
-                <div className="product-img"></div>
+                
+                <picture>
+        <source srcSet={ProductMob} media="(max-width: 1440px)" />
+        <source srcSet={ProductDesk} />
+        <img className="product-img" src={ProductMob} alt="product image" />
+                </picture>
 
                 <div className="product">
                     <p className="perfume">PERFUME</p>
