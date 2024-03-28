@@ -1,0 +1,155 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px;
+}
+
+.product-img{
+    background:url(./images/image-product-mobile.jpg);
+    width: 343px;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+    
+.product{
+    width: 343px;
+    background:#FFF;
+    padding: 24px;
+}
+    
+.perfume{
+    color: #6C7289;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px ;
+}
+  
+h1{
+    color: #1C232B;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 12px 0 16px 0; 
+}
+    
+.description{
+    color: #6C7289;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.64;
+    margin-bottom: 24px;
+}
+    
+.price{
+    display: flex;
+    flex-direction: row;
+    gap:19px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+    
+#price1{ 
+    color:  #3D8168;
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.77;
+}
+    
+#price2{
+    color:#6C7289;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.77; 
+    text-decoration-line: line-through;
+}
+    
+button{
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3D8168;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:14px;
+}
+    
+button img{
+    width: 14.385px;
+    height: 16px;
+}
+    
+button p{
+    color:  #FFF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+    
+    
+    
+    
+@media (min-width:1440px) {
+        
+.container{
+    padding: 175px 420px;
+    flex-direction: row;
+}
+    
+.product-img{
+    background:url(./images/image-product-desktop.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;
+    border-top-right-radius: 0px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+}
+        
+.product{
+    width: 300px;
+    padding: 32px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+         
+h1{
+    margin: 20px 0 24px 0; 
+}
+        
+.description{
+    margin-bottom: 29px;
+}
+        
+.price{
+    margin-bottom: 30px;
+}
+#price1{
+    line-height: 1;
+    letter-spacing: normal;
+}
+        
+button{
+        width: 236px;
+}
+        
+button:hover{
+    cursor: pointer;
+    background-color: #1A4032;
+}
+    
+    
+}
