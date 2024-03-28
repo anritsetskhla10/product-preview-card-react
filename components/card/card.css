@@ -6,7 +6,7 @@
 }
 
 .product-img{
-    background:url(./images/image-product-mobile.jpg);
+    background:url(./public/images/image-product-mobile.jpg);
     width: 343px;
     height: 240px;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ button p{
 }
     
 .product-img{
-    background:url(./images/image-product-desktop.jpg) ;
+    background:url(./public/images/image-product-desktop.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
